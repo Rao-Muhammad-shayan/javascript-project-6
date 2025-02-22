@@ -127,3 +127,59 @@
 // } else {
 //   console.log("Input element not found");
 // }
+//  q15
+
+// let str="abcdefghijklmnopqrstuvwxyz"
+// for (let i = 0; i < str.length; i++) {
+//    console.log(str[i].charCodeAt())
+    
+// }
+// let passcodeInput = document.getElementById("input");
+
+// passcodeInput.addEventListener("keypress", function(event) {
+//     if (event.key === "Enter") {
+//         let passcode = passcodeInput.value.trim().toLowerCase();
+
+//         if (passcode.length >= 6) {
+          
+//             if (passcode.charCodeAt(0) >= 48 && passcode.charCodeAt(0) <= 57) {
+//                 console.log(`Passcode: ${passcode}`);
+//                 console.log("Passcode is not valid because it starts with a numeric value.");
+//             } else {
+                
+//                 let hasNumber = false;
+//                 for (let i = 0; i < passcode.length; i++) {
+//                     if (passcode.charCodeAt(i) >= 48 && passcode.charCodeAt(i) <= 57) {
+//                         hasNumber = true;
+//                         break;
+//                     }
+//                 }
+
+//                 console.log(`Passcode: ${passcode}`);
+//                 if (!hasNumber) {
+//                     console.log("Passcode should contain at least one numeric digit.");
+//                 } else {
+//                     console.log("Passcode is valid!");
+//                 }
+//             }
+//         } else {
+//             console.log("Passcode should be at least 6 characters long.");
+//         }
+//     }
+// });
+// q16
+// let str="shayan";
+
+// localStorage.setItem("name",str)
+
+// let localStr=localStorage.getItem("name");
+// localStr=localStr.split("")
+// console.log(localStr)
+// for(i=0 ;i<localStr.length;i++){
+//     console.log(localStr[i])
+// }
+// q17
+// let str = "shayan";
+// console.log(str);
+// console.log(str.charAt(str.length-1));
+
