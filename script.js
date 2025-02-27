@@ -182,4 +182,24 @@
 // let str = "shayan";
 // console.log(str);
 // console.log(str.charAt(str.length-1));
+// q18
+// let str = "The quick brown fox jumps over the lazy dog";
+// let obj = {};
 
+// function occurrences(occurWord) {
+//     let words = str.toLowerCase().split(" "); // Convert to lowercase and split into words
+//     occurWord = occurWord.toLowerCase(); // Convert the target word to lowercase
+
+//     let count = 0;
+//     for (let word of words) {
+//         if (word === occurWord) count++;
+     
+//     }
+
+// ({ occurWord: obj[occurWord] = count } = obj);
+
+//     return count; 
+// }
+
+// let number = occurrences("the");
+// console.log(obj);
